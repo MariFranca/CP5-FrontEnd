@@ -83,14 +83,24 @@
     </section>
 
     <section class="Formulario">
-        <form action="">
-        <input type="text">
-        <button>Enviar</button>
+        <form action="#" method="POST" class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+            <input type="text" placeholder="Digite seu nome" class="w-full p-3 border rounded-lg">
+            <input type="email" placeholder="Digite seu e-mail" required class="w-full p-3 border rounded-lg">
+            <textarea rows="4" placeholder="Escreva sua mensagem" class="w-full p-3 border rounded-lg"></textarea>
+            <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition">Enviar</button>
         </form>
     </section>
 
-    <footer> 
-        <p>Infomações de contato</p>
+    <footer class="bg-indigo-700 text-white py-6 mt-12"> 
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm">© 2025 Melodia - Todos os direitos reservados</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:underline">Política de Privacidade</a>
+                <a href="mailto:contato@melodia.com" class="hover:underline">Contato</a>
+                <a href="#" class="hover:underline">Instagram</a>
+                <a href="#" class="hover:underline">Twitter</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
