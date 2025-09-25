@@ -130,52 +130,27 @@
         </div>
     </section>
 
-<section class="Formulario bg-gray-100 dark:bg-gray-900 py-12 px-6">
-    <div class="max-w-3xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
-        <h2 class="text-2xl font-bold text-purple-900 dark:text-purple-300 mb-6 text-center font-poppins">
-            Esteja sempre atualizado com as nossas novidades exclusivas!
-        </h2>
-
-        <form action="#" method="POST" class="space-y-4">
-            <div>
-                <label for="nome" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-1">
-                    Nome
-                </label>
-                <input 
-                    type="text" 
-                    id="nome" 
-                    name="nome" 
-                    placeholder="Digite seu nome"
-                    class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none bg-white dark:bg-gray-700 text-black dark:text-gray-100" required>
-            </div>
-
-            <div>
-                <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-1">
-                    Email
-                </label>
-                <input 
-                    type="email" 
-                    id="email" 
-                    name="email" 
-                    placeholder="Digite seu email"
-                    class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none bg-white dark:bg-gray-700 text-black dark:text-gray-100" required>
-            </div>
-
-            <div class="text-center">
-                <button 
-                    type="submit" 
-                    class="w-full bg-purple-900 dark:bg-purple-700 text-white font-bold px-6 py-4 rounded-lg text-lg hover:bg-purple-700 dark:hover:bg-purple-600 transition">
-                    Enviar
-                </button>
-            </div>
+    <section class="Formulario">
+        <form action="#" method="POST" class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+            <input type="text" placeholder="Digite seu nome" class="w-full p-3 border rounded-lg">
+            <input type="email" placeholder="Digite seu e-mail" required class="w-full p-3 border rounded-lg">
+            <textarea rows="4" placeholder="Escreva sua mensagem" class="w-full p-3 border rounded-lg"></textarea>
+            <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition">Enviar</button>
         </form>
     </div>
-</section>
+  </section>
 
-    <footer> 
-        <p>Infomações de contato</p>
+    <footer class="bg-indigo-700 text-white py-6 mt-12"> 
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm">© 2025 Melodia - Todos os direitos reservados</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:underline">Política de Privacidade</a>
+                <a href="mailto:contato@melodia.com" class="hover:underline">Contato</a>
+                <a href="#" class="hover:underline">Instagram</a>
+                <a href="#" class="hover:underline">Twitter</a>
+            </div>
+        </div>
     </footer>
-
 
 </body>
 </html>
