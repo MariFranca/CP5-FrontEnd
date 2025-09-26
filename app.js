@@ -1,3 +1,7 @@
+tailwind.config = {
+        darkMode: 'class'
+    }
+
 openModal.addEventListener("click", () => {
     modal.classList.remove("hidden");
 });
@@ -11,5 +15,10 @@ modal.addEventListener("click", (e) => {
         modal.classList.add("hidden");
     }
 });
+
+const btn = document.getElementById('toggle-dark');
+        btn.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        });
 
 
