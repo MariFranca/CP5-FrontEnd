@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melodia</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <script src="app.js"></script>
 
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    
+    <script src="app.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-white dark:bg-gray-900 transition-colors duration-500">
-    <header class="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md dark:bg-gray-900/70">
-        <div class="max-w-6xl mx-auto flex items-center justify-between w-full px-6 py-4">
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-300">
+    <header class="fixed top-0 left-0 w-full bg-white/30 dark:bg-gray-900/30 backdrop-blur-md shadow-md z-50">
+        <div class=" max-w-6xl mx-auto flex items-center justify-between w-full px-6 py-4">
             <h1 class="text-purple-700 dark:text-white text-2xl font-bold">Melodia</h1>
-            <button id="" class="px-4 py-2 rounded-md bg-purple-600 text-white dark:bg-white dark:text-purple-600 transition-colors duration-300">
-                ☀️
-            </button>
+            <button id="theme-toggle"
+            type="button"
+            aria-pressed="false"
+            class="relative w-14 h-8 flex items-center bg-purple-600 dark:bg-purple-400 rounded-full p-1 transition-colors duration-300">
+                <span id="toggle-circle" class="absolute left-1 w-6 h-6 bg-white dark:bg-gray-900 rounded-full shadow-md"></span>
+                <span class="absolute left-2 text-xs text-yellow-300 select-none">☀️</span>
+                <span class="absolute right-2 text-xs text-gray-800 dark:text-white select-none">🌙</span>
+      </button>
+           
+
         </div>
     </header>
 
-    <section class="relative bg-gradient-to-r from-purple-400 via-purple-600 to-purple-800 dark:from-gray-800 dark:via-gray-900 dark:to-black h-[50vh] flex items-center justify-center px-5 pt-40 pb-40">
+    <section class="relative bg-gradient-to-r from-purple-400 via-purple-600 to-purple-800 mt-20 dark:from-purple-800 dark:via-purple-900 dark:to-gray-900 h-[50vh] flex items-center justify-center px-5 pt-40 pb-40">
         <div class="max-w-5xl text-center text-white">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+            <h1 class="text-4xl md:text-5xl mb-4">
                 Melodia: Sua Música, Sua Forma
             </h1>
-            <h2 class="text-lg md:text-xl mb-12 font-poppins">
+            <h2 class="text-lg md:text-xl mb-12">
                 Descubra novas músicas, crie playlists personalizadas e viva a melhor experiência sonora.
             </h2>
             <button type="submit" class="w-3/4 bg-white text-purple-600 font-bold px-6 py-4 rounded-lg text-lg dark:bg-purple-600 dark:text-white">
@@ -32,7 +46,7 @@
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <div>
             <h3>Acesso ilimitado a músicas </h3> 
             <p> Milhões de faixas em diferentes estilos e artistas.</p>
@@ -82,12 +96,12 @@
             <h3>Conexão com artistas</h3> 
             <p>Aproxime-se dos seus ídolos com conteúdos exclusivos, bastidores e lançamentos antecipados.</p> 
         </div> 
-    </section>
+    </section> -->
 
 
     <section class="Depoimentos bg-gray-100 dark:bg-gray-900 py-16 px-6">
         <div class="max-w-6xl mx-auto text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-purple-900 dark:text-purple-300 font-poppins">
+            <h2 class="text-3xl md:text-4xl font-bold text-purple-600 dark:text-purple-300 ">
                 O que nossos usuários dizem
             </h2>
             <h2 class="text-black dark:text-gray-200 mt-5">Experiências reais de quem já usa o Melodia</h2>
@@ -130,17 +144,19 @@
         </div>
     </section>
 
-    <section class="Formulario">
-        <form action="#" method="POST" class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow space-y-4">
-            <input type="text" placeholder="Digite seu nome" class="w-full p-3 border rounded-lg">
-            <input type="email" placeholder="Digite seu e-mail" required class="w-full p-3 border rounded-lg">
-            <textarea rows="4" placeholder="Escreva sua mensagem" class="w-full p-3 border rounded-lg"></textarea>
-            <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition">Enviar</button>
+   <section class="Formulario bg-gray-100 dark:bg-gray-800">
+        <form action="#" method="POST" class="max-w-lg mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg shadow space-y-4">
+            <h2 class="text-2xl font-bold text-purple-600 dark:text-purple-300 mb-6 text-center">
+            Entre em contato conosco
+            </h2>
+            <input type="text" placeholder="Digite seu nome" class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-black dark:text-gray-100">
+            <input type="email" placeholder="Digite seu e-mail" required class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-black dark:text-gray-100">
+            <textarea rows="4" placeholder="Escreva sua mensagem" class="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-black dark:text-gray-100"></textarea>
+            <button type="submit" class="w-full bg-purple-600 dark:bg-purple-300 text-white py-3 rounded-lg hover:bg-indigo-700 dark:hover:bg-indigo-900 transition">Enviar</button>
         </form>
-    </div>
-  </section>
+    </section>
 
-    <footer class="bg-indigo-700 text-white py-6 mt-12"> 
+    <footer class="bg-gradient-to-r from-purple-400 via-purple-600 to-purple-800 dark:from-purple-800 dark:via-purple-900 dark:to-gray-900 text-white py-6 mt-12"> 
         <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
             <p class="text-sm">© 2025 Melodia - Todos os direitos reservados</p>
             <div class="flex space-x-6 mt-4 md:mt-0">
@@ -151,6 +167,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
 </body>
 </html>
