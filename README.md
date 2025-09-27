@@ -3,7 +3,7 @@
 ## 💡 Sobre o projeto  
 O **Melodia** é um site de música desenvolvido em grupo com o objetivo de criar uma experiência **inovadora** para amantes da música. A plataforma oferece uma interface moderna, intuitiva e responsiva, onde usuários podem descobrir, ouvir e interagir com músicas de forma única.  
 
- ### 🌐 Acesse o projeto online: [Melodia](https://marifranca.github.io/CP5-FrontEnd/)
+ ### 🌐 Acesse o projeto online: [Melodia](https://marifranca.github.io/CP5-FrontEnd//)
 
 ## 🚀 Funcionalidades
 
