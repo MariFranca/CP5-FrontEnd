@@ -5,12 +5,24 @@ O **Melodia** é um site de música desenvolvido em grupo com o objetivo de cria
 
 ### 🌐 Acesse o projeto online:
 
-## 🚀 Funcionalidades  
-- 🎧 **Ouvir músicas** diretamente na plataforma  
-- ❤️ **Favoritar faixas** e montar playlists personalizadas  
-- 🔍 **Pesquisar músicas** por nome, artista ou estilo  
-- 📱 **Responsivo**: adaptado para desktop, tablet e celular  
-- ⚡ Interface moderna e fácil de usar, com tema claro/escuro  
+## 🚀 Funcionalidades
+
+Nossa plataforma oferece uma experiência completa para quem ama música. Confira os principais recursos:
+
+- 🎧 **Ouvir músicas**  
+  Curta suas faixas favoritas diretamente na plataforma, sem interrupções.
+
+- ❤️ **Favoritar faixas**  
+  Monte playlists personalizadas com suas músicas favoritas.
+
+- 🔍 **Pesquisar músicas**  
+  Encontre qualquer música por nome, artista ou estilo de forma rápida.
+
+- 📱 **Responsivo**  
+  Interface adaptada para desktop, tablet e celular.
+
+- ⚡ **Interface moderna**  
+  Tema claro/escuro e design intuitivo para facilitar sua experiência.
 
 ## 🎯 Objetivo  
 O objetivo deste projeto é aplicar conceitos de **desenvolvimento web** em grupo, criando um site inovador que una **design moderno** e **funcionalidade prática** para usuários que amam música.  
