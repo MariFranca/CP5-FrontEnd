@@ -9,8 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     
 </head>
@@ -53,36 +57,81 @@
         </div>
         </section>
 
-    <!-- <section>
-        <div>
-            <h3>Acesso ilimitado a músicas </h3> 
-            <p> Milhões de faixas em diferentes estilos e artistas.</p>
-        </div>
 
-        <div>
-            <h3>Playlists personalizadas </h3> 
-            <p> Recomendações de acordo com o gosto do usuário.</p> 
-        </div>
+    <section class="bg-gray-100 dark:bg-gray-900 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">->
+                <div class="swiper-slide">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg text-center">
+                    <div class="flex justify-center mb-4">
+                    <i class="fa-solid fa-music text-purple-600 dark:text-purple-300 text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 dark:text-purple-300 mb-2">Acesso ilimitado a músicas</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Milhões de faixas em diferentes estilos e artistas.</p>
+                </div>
 
-        <div>
-            <h3>Qualidade de áudio superior </h3> 
-            <p>Qualidade de som incrível, sem ruídos.</p> 
-        </div>
+                </div>
+                <div class="swiper-slide">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg text-center">
+                    <div class="flex justify-center mb-4">
+                    <i class="fa-solid fa-list text-purple-600 dark:text-purple-300 text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 dark:text-purple-300 mb-2">Playlists personalizadas</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Recomendações de acordo com o gosto do usuário.</p>
+                </div>
+                </div>
 
-        <div>
-            <h3>Modo offline </h3> 
-            <p>Curta suas músicas favoritas mesmo offline.</p> 
-        </div>
+                <div class="swiper-slide">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg text-center">
+                    <div class="flex justify-center mb-4">
+                    <i class="fa-solid fa-headphones text-purple-600 dark:text-purple-300 text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 dark:text-purple-300 mb-2">Qualidade de áudio superior</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Som incrível, sem ruídos.</p>
+                </div>
+                </div>
 
-        <div>
-            <h3>Experiência sem anúncios</h3> 
-            <p>Experiência sem anúncios, só música.</p> 
-        </div>
+                <div class="swiper-slide">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg text-center">
+                    <div class="flex justify-center mb-4">
+                    <i class="fa-solid fa-cloud-arrow-down text-purple-600 dark:text-purple-300 text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 dark:text-purple-300 mb-2">Modo offline</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Curta suas músicas favoritas mesmo offline.</p>
+                </div>
+                </div>
 
-        <h3>Experiência fluida e intuitiva </h3> 
-        <p>Interface simples, rápida e intuitiva. </p> 
+                <div class="swiper-slide">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg text-center">
+                    <div class="flex justify-center mb-4">
+                    <i class="fa-solid fa-ban text-purple-600 dark:text-purple-300 text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 dark:text-purple-300 mb-2">Experiência sem anúncios</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Só música, sem interrupções.</p>
+                </div>
+                </div>
+
+                <div class="swiper-slide">
+                <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg text-center">
+                    <div class="flex justify-center mb-4">
+                    <i class="fa-solid fa-bolt text-purple-600 dark:text-purple-300 text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-purple-800 dark:text-purple-300 mb-2">Experiência fluida e intuitiva</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Interface simples, rápida e intuitiva.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next text-purple-600 dark:text-purple-300"></div>
+            <div class="swiper-button-prev text-purple-600 dark:text-purple-300"></div>
+
+            <div class="swiper-pagination mt-4"></div>
+        </div>
+    </div>
     </section>
 
+    <!-- 
     <section class="Funcionalidades"> 
         <div> 
             <h3>Modo imersivo</h3> 
